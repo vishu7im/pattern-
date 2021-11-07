@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class hollowrect {
+public class Hollow_Rectangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -9,16 +9,16 @@ public class hollowrect {
         System.out.println("enter your row");
         int r = sc.nextInt();
 
-        // outer loop
+        // outer loop --> for row
         for (int i = 1; i <= r; i++) {
 
-            // inner loop
+            // inner loop --> for colum
             for (int j = 1; j <= c; j++) {
                 if (i == 1 || j == 1 || j == c || i == r) {
                     System.out.print("*");
 
                 } else {
-                    System.out.print("");
+                    System.out.print(" ");
 
                 }
             }

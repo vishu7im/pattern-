@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class solidRactangle {
+public class Solid_Rectangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -9,10 +9,10 @@ public class solidRactangle {
         System.out.println("enter value of row");
         int r = sc.nextInt();
 
-        // outer loop
+        // outer loop --> for row
         for (int i = 1; i <= r; i++) {
 
-            // inner loop
+            // inner loop --> for colum
             for (int j = 1; j <= c; j++) {
                 System.out.print("*");
 

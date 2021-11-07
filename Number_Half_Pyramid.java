@@ -7,10 +7,10 @@ public class Number_Half_Pyramid {
         System.out.println("enter no. ");
         int c = sc.nextInt();
 
-        // outer loop
+        // outer loop --> for row
         for (int i = 1; i <= c; i++) {
 
-            // inner loop
+            // inner loop --> for colum
             for (int j = 1; j <= i; j++) {
                 System.out.print(j + " ");
 
