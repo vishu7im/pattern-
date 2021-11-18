@@ -4,7 +4,7 @@ public class Number_Prymid {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("enter your row");
+        System.out.println("enter your column");
         int a = sc.nextInt();
         // outer loop
         for (int i = 1; i <= a; i++) {

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solid_Rohmbus {
+public class hollowRohmbus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -16,7 +16,13 @@ public class Solid_Rohmbus {
             }
             // inner loop for star
             for (int j = 1; j <= a; j++) {
-                System.out.print("*");
+                if (j == 1 || j == a || i == 1 || i == a) {
+                    System.out.print("*");
+
+                } else {
+                    System.out.print(" ");
+
+                }
             }
             System.out.println(" ");
 

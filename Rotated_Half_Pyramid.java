@@ -7,9 +7,9 @@ public class Rotated_Half_Pyramid {
         System.out.println("enter no. ");
         int c = sc.nextInt();
 
-        // outerloop --> for row
+        // outerloop --> for column
         for (int i = 1; i <= c; i++) {
-            // iner loop 1 --> for colum
+            // iner loop 1 --> for row
             for (int j = 1; j <= (c - i); j++) {
                 System.out.print(" ");
 

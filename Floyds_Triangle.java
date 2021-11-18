@@ -8,9 +8,9 @@ public class Floyds_Triangle {
         int c = sc.nextInt();
         int num = 1;
 
-        // outer loop --> row
+        // outer loop --> column
         for (int i = 1; i <= c; i++) {
-            // inner loop --> colme
+            // inner loop --> row
             for (int j = 1; j <= i; j++) {
 
                 System.out.print(num + " ");
