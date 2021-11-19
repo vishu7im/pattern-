@@ -4,7 +4,7 @@ public class Floyds_Triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("enter your number of row index");
+        System.out.println("enter your number of column index");
         int c = sc.nextInt();
         int num = 1;
 
